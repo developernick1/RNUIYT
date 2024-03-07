@@ -1,7 +1,7 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { LockedScreen, SplashScreen, UnLockScreen } from '../screens';
+import { LockedScreen, LoginScreen, OnBoardingScreen, SplashScreen, UnLockScreen } from '../screens';
 import NavigationStrings from './NavigationStrings'
 
 export default function AuthRoutes() {
@@ -12,7 +12,8 @@ export default function AuthRoutes() {
                 headerShown: false,
             }}
         >
-            <Stack.Screen name={NavigationStrings.SPLASH_SCREEN} component={SplashScreen} options={{ title: 'Lock' }} />
+            <Stack.Screen name={NavigationStrings.ON_BOARDING_SCREEN} component={OnBoardingScreen} options={{ title: 'Lock' }} />
+            <Stack.Screen name={NavigationStrings.LOGIN_SCREEN} component={LoginScreen} options={{ title: 'Lock' }} />
         </Stack.Navigator>
     )
 }

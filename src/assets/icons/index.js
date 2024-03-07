@@ -3,6 +3,9 @@ import Attachment_SVG from './Attachment.svg'
 import BagInq_SVG from './BagInq.svg'
 import Logo_SVG from './Logo.svg'
 import Waves_SVG from './Waves.svg'
+import OnOne_SVG from './OnOne.svg'
+import OnTwo_SVG from './OnTwo.svg'
+import OnThree_SVG from './OnThree.svg'
 
 
 export const Assign_Icon = 
@@ -19,3 +22,12 @@ export const Logo_Icon =
 
 export const Waves_Icon =
  ({height, width}) => (<Waves_SVG height={height} width={width} />)
+
+export const OnOne_Icon =
+ ({height, width}) => (<OnOne_SVG height={height} width={width} />)
+
+export const OnTwo_Icon =
+ ({height, width}) => (<OnTwo_SVG height={height} width={width} />)
+
+export const OnThree_Icon =
+ ({height, width}) => (<OnThree_SVG height={height} width={width} />)
