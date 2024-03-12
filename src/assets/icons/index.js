@@ -6,6 +6,12 @@ import Waves_SVG from './Waves.svg'
 import OnOne_SVG from './OnOne.svg'
 import OnTwo_SVG from './OnTwo.svg'
 import OnThree_SVG from './OnThree.svg'
+import CrossBlack_SVG from './CrossBlack.svg'
+import EYE_SVG from './EYE.svg'
+import FaceBook_SVG from './FaceBook.svg'
+import Google_SVG from './Google.svg'
+import Lock_SVG from './Lock.svg'
+import Mail_SVG from './Mail.svg'
 
 
 export const Assign_Icon = 
@@ -31,3 +37,23 @@ export const OnTwo_Icon =
 
 export const OnThree_Icon =
  ({height, width}) => (<OnThree_SVG height={height} width={width} />)
+
+export const CrossBlack_Icon =
+ ({height, width}) => (<CrossBlack_SVG height={height} width={width} />)
+
+export const EYE_Icon =
+ ({height, width}) => (<EYE_SVG height={height} width={width} />)
+
+export const FaceBook_Icon =
+ ({height, width}) => (<FaceBook_SVG height={height} width={width} />)
+
+export const Google_Icon =
+ ({height, width}) => (<Google_SVG height={height} width={width} />)
+
+export const Lock_Icon =
+ ({height, width}) => (<Lock_SVG height={height} width={width} />)
+
+export const Mail_Icon =
+ ({height, width}) => (<Mail_SVG height={height} width={width} />)
+
+ 

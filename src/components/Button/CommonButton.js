@@ -19,15 +19,24 @@ const styles = StyleSheet.create({
         backgroundColor: colors?.primaryColor,
         width: '100%',
         height: height / 15,
-        borderRadius: 5,
+        borderRadius: 10,
         justifyContent: 'center',
         alignItems: 'center',
         textAlign: 'center',
+        marginVertical: 10,
+        shadowColor: colors?.buttonshadowColor,
+        shadowOffset: {
+            width: 0,
+            height: 10,
+        },
+        shadowOpacity: 0.58,
+        shadowRadius: 16.00,
+        elevation: 24,
     },
     ButtonTittle: {
         color: colors?.whiteColor,
         fontFamily: fonts?.PoppinsBold,
         fontSize: 14,
         textTransform: 'uppercase',
-    }
+    },
 })
